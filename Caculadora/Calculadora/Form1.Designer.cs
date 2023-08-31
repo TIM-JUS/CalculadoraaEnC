@@ -58,7 +58,8 @@
             // 
             // btn7
             // 
-            btn7.BackColor = SystemColors.Highlight;
+            btn7.BackColor = SystemColors.MenuHighlight;
+            btn7.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             btn7.Location = new Point(12, 169);
             btn7.Name = "btn7";
             btn7.Size = new Size(75, 44);
@@ -70,6 +71,7 @@
             // btn8
             // 
             btn8.BackColor = SystemColors.MenuHighlight;
+            btn8.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             btn8.Location = new Point(104, 169);
             btn8.Name = "btn8";
             btn8.Size = new Size(75, 44);
@@ -81,6 +83,7 @@
             // btn9
             // 
             btn9.BackColor = SystemColors.MenuHighlight;
+            btn9.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             btn9.Location = new Point(198, 169);
             btn9.Name = "btn9";
             btn9.Size = new Size(75, 44);
@@ -91,17 +94,20 @@
             // 
             // btn4
             // 
+            btn4.BackColor = SystemColors.MenuHighlight;
+            btn4.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             btn4.Location = new Point(12, 229);
             btn4.Name = "btn4";
             btn4.Size = new Size(75, 43);
             btn4.TabIndex = 7;
             btn4.Text = "4";
-            btn4.UseVisualStyleBackColor = true;
+            btn4.UseVisualStyleBackColor = false;
             btn4.Click += btn4_Click;
             // 
             // btn5
             // 
             btn5.BackColor = SystemColors.MenuHighlight;
+            btn5.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             btn5.Location = new Point(104, 229);
             btn5.Name = "btn5";
             btn5.Size = new Size(75, 43);
@@ -113,6 +119,7 @@
             // btn6
             // 
             btn6.BackColor = SystemColors.MenuHighlight;
+            btn6.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             btn6.Location = new Point(198, 229);
             btn6.Name = "btn6";
             btn6.Size = new Size(75, 43);
@@ -123,34 +130,41 @@
             // 
             // btn1
             // 
+            btn1.BackColor = SystemColors.MenuHighlight;
+            btn1.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             btn1.Location = new Point(12, 291);
             btn1.Name = "btn1";
             btn1.Size = new Size(75, 40);
             btn1.TabIndex = 10;
             btn1.Text = "1";
-            btn1.UseVisualStyleBackColor = true;
+            btn1.UseVisualStyleBackColor = false;
             // 
             // btn2
             // 
+            btn2.BackColor = SystemColors.MenuHighlight;
+            btn2.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             btn2.Location = new Point(104, 291);
             btn2.Name = "btn2";
             btn2.Size = new Size(75, 40);
             btn2.TabIndex = 11;
             btn2.Text = "2";
-            btn2.UseVisualStyleBackColor = true;
+            btn2.UseVisualStyleBackColor = false;
             btn2.Click += btn2_Click;
             // 
             // btn3
             // 
+            btn3.BackColor = SystemColors.MenuHighlight;
+            btn3.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             btn3.Location = new Point(198, 291);
             btn3.Name = "btn3";
             btn3.Size = new Size(75, 40);
             btn3.TabIndex = 12;
             btn3.Text = "3";
-            btn3.UseVisualStyleBackColor = true;
+            btn3.UseVisualStyleBackColor = false;
             // 
             // btnPunto
             // 
+            btnPunto.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             btnPunto.Location = new Point(12, 347);
             btnPunto.Name = "btnPunto";
             btnPunto.Size = new Size(75, 41);
@@ -161,16 +175,19 @@
             // 
             // btn0
             // 
+            btn0.BackColor = SystemColors.MenuHighlight;
+            btn0.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             btn0.Location = new Point(104, 347);
             btn0.Name = "btn0";
             btn0.Size = new Size(75, 41);
             btn0.TabIndex = 14;
             btn0.Text = "0";
-            btn0.UseVisualStyleBackColor = true;
+            btn0.UseVisualStyleBackColor = false;
             btn0.Click += btn0_Click;
             // 
             // btnIgual
             // 
+            btnIgual.Font = new Font("Showcard Gothic", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             btnIgual.Location = new Point(198, 347);
             btnIgual.Name = "btnIgual";
             btnIgual.Size = new Size(75, 41);
@@ -181,6 +198,7 @@
             // 
             // btnResta
             // 
+            btnResta.Font = new Font("Showcard Gothic", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             btnResta.Location = new Point(83, 98);
             btnResta.Name = "btnResta";
             btnResta.Size = new Size(43, 50);
@@ -191,6 +209,7 @@
             // 
             // btnLinpiar
             // 
+            btnLinpiar.Font = new Font("Showcard Gothic", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             btnLinpiar.Location = new Point(98, 394);
             btnLinpiar.Name = "btnLinpiar";
             btnLinpiar.Size = new Size(106, 50);
@@ -201,6 +220,7 @@
             // 
             // btnSuma
             // 
+            btnSuma.Font = new Font("Showcard Gothic", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnSuma.Location = new Point(12, 98);
             btnSuma.Name = "btnSuma";
             btnSuma.Size = new Size(43, 50);
@@ -211,6 +231,7 @@
             // 
             // btnMulti
             // 
+            btnMulti.Font = new Font("Showcard Gothic", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             btnMulti.Location = new Point(152, 98);
             btnMulti.Name = "btnMulti";
             btnMulti.Size = new Size(52, 50);
@@ -221,6 +242,7 @@
             // 
             // btnDivision
             // 
+            btnDivision.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             btnDivision.Location = new Point(225, 98);
             btnDivision.Name = "btnDivision";
             btnDivision.Size = new Size(48, 50);

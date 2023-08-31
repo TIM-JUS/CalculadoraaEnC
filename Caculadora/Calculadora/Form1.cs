@@ -96,7 +96,7 @@ namespace Calculadora
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            //Suma
+            //Sumaa
             operacion = 1;
             valor1 = Convert.ToDouble(tbDisplay.Text);
             tbDisplay.Text = "";
