@@ -85,7 +85,7 @@ namespace Calculadora
                 case 1: resultado = valor1 + valor2; break;
                 case 2: resultado = valor1 - valor2; break;
                 case 3: resultado = valor1 * valor2; break;
-
+                case 4: resultado = valor1 / valor2; break;
 
 
             }
@@ -127,7 +127,9 @@ namespace Calculadora
 
         private void btnDivision_Click(object sender, EventArgs e)
         {
-            
+            operacion = 4;
+            valor1 = Convert.ToDouble(tbDisplay.Text);
+            tbDisplay.Text = "";
 
         }
     }
