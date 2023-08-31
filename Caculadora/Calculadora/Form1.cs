@@ -104,7 +104,7 @@ namespace Calculadora
 
         private void btnPunto_Click(object sender, EventArgs e)
         {
-            tbDisplay.Text = tbDisplay.Text+ ".";
+            tbDisplay.Text = tbDisplay.Text + ".";
 
         }
 

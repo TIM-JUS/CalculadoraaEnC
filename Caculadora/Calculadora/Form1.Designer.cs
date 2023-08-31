@@ -58,32 +58,35 @@
             // 
             // btn7
             // 
+            btn7.BackColor = SystemColors.Highlight;
             btn7.Location = new Point(12, 169);
             btn7.Name = "btn7";
             btn7.Size = new Size(75, 44);
             btn7.TabIndex = 4;
             btn7.Text = "7";
-            btn7.UseVisualStyleBackColor = true;
+            btn7.UseVisualStyleBackColor = false;
             btn7.Click += btn7_Click;
             // 
             // btn8
             // 
+            btn8.BackColor = SystemColors.MenuHighlight;
             btn8.Location = new Point(104, 169);
             btn8.Name = "btn8";
             btn8.Size = new Size(75, 44);
             btn8.TabIndex = 5;
             btn8.Text = "8";
-            btn8.UseVisualStyleBackColor = true;
+            btn8.UseVisualStyleBackColor = false;
             btn8.Click += btn8_Click;
             // 
             // btn9
             // 
+            btn9.BackColor = SystemColors.MenuHighlight;
             btn9.Location = new Point(198, 169);
             btn9.Name = "btn9";
             btn9.Size = new Size(75, 44);
             btn9.TabIndex = 6;
             btn9.Text = "9";
-            btn9.UseVisualStyleBackColor = true;
+            btn9.UseVisualStyleBackColor = false;
             btn9.Click += btn9_Click;
             // 
             // btn4
@@ -98,22 +101,24 @@
             // 
             // btn5
             // 
+            btn5.BackColor = SystemColors.MenuHighlight;
             btn5.Location = new Point(104, 229);
             btn5.Name = "btn5";
             btn5.Size = new Size(75, 43);
             btn5.TabIndex = 8;
             btn5.Text = "5";
-            btn5.UseVisualStyleBackColor = true;
+            btn5.UseVisualStyleBackColor = false;
             btn5.Click += btn5_Click;
             // 
             // btn6
             // 
+            btn6.BackColor = SystemColors.MenuHighlight;
             btn6.Location = new Point(198, 229);
             btn6.Name = "btn6";
             btn6.Size = new Size(75, 43);
             btn6.TabIndex = 9;
             btn6.Text = "6";
-            btn6.UseVisualStyleBackColor = true;
+            btn6.UseVisualStyleBackColor = false;
             btn6.Click += btn6_Click;
             // 
             // btn1
