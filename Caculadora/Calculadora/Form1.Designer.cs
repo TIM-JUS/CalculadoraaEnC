@@ -164,13 +164,14 @@
             // 
             // btnPunto
             // 
+            btnPunto.BackColor = Color.FromArgb(128, 255, 255);
             btnPunto.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             btnPunto.Location = new Point(12, 347);
             btnPunto.Name = "btnPunto";
             btnPunto.Size = new Size(75, 41);
             btnPunto.TabIndex = 13;
             btnPunto.Text = ".";
-            btnPunto.UseVisualStyleBackColor = true;
+            btnPunto.UseVisualStyleBackColor = false;
             btnPunto.Click += btnPunto_Click;
             // 
             // btn0
@@ -187,74 +188,82 @@
             // 
             // btnIgual
             // 
+            btnIgual.BackColor = Color.Cyan;
             btnIgual.Font = new Font("Showcard Gothic", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             btnIgual.Location = new Point(198, 347);
             btnIgual.Name = "btnIgual";
             btnIgual.Size = new Size(75, 41);
             btnIgual.TabIndex = 15;
             btnIgual.Text = "=";
-            btnIgual.UseVisualStyleBackColor = true;
+            btnIgual.UseVisualStyleBackColor = false;
             btnIgual.Click += btnIgual_Click;
             // 
             // btnResta
             // 
+            btnResta.BackColor = Color.Lime;
             btnResta.Font = new Font("Showcard Gothic", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             btnResta.Location = new Point(83, 98);
             btnResta.Name = "btnResta";
             btnResta.Size = new Size(43, 50);
             btnResta.TabIndex = 18;
             btnResta.Text = "-";
-            btnResta.UseVisualStyleBackColor = true;
+            btnResta.UseVisualStyleBackColor = false;
             btnResta.Click += btnResta_Click;
             // 
             // btnLinpiar
             // 
+            btnLinpiar.BackColor = Color.Cyan;
             btnLinpiar.Font = new Font("Showcard Gothic", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             btnLinpiar.Location = new Point(98, 394);
             btnLinpiar.Name = "btnLinpiar";
             btnLinpiar.Size = new Size(106, 50);
             btnLinpiar.TabIndex = 19;
             btnLinpiar.Text = "C";
-            btnLinpiar.UseVisualStyleBackColor = true;
+            btnLinpiar.UseVisualStyleBackColor = false;
             btnLinpiar.Click += btnLinpiar_Click;
             // 
             // btnSuma
             // 
+            btnSuma.BackColor = Color.Lime;
             btnSuma.Font = new Font("Showcard Gothic", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSuma.ForeColor = Color.Black;
             btnSuma.Location = new Point(12, 98);
             btnSuma.Name = "btnSuma";
             btnSuma.Size = new Size(43, 50);
             btnSuma.TabIndex = 20;
             btnSuma.Text = "+";
-            btnSuma.UseVisualStyleBackColor = true;
+            btnSuma.UseVisualStyleBackColor = false;
             btnSuma.Click += button1_Click_1;
             // 
             // btnMulti
             // 
+            btnMulti.BackColor = Color.Lime;
             btnMulti.Font = new Font("Showcard Gothic", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             btnMulti.Location = new Point(152, 98);
             btnMulti.Name = "btnMulti";
             btnMulti.Size = new Size(52, 50);
             btnMulti.TabIndex = 21;
             btnMulti.Text = "x";
-            btnMulti.UseVisualStyleBackColor = true;
+            btnMulti.UseVisualStyleBackColor = false;
             btnMulti.Click += btnMulti_Click;
             // 
             // btnDivision
             // 
+            btnDivision.BackColor = Color.Lime;
             btnDivision.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             btnDivision.Location = new Point(225, 98);
             btnDivision.Name = "btnDivision";
             btnDivision.Size = new Size(48, 50);
             btnDivision.TabIndex = 22;
             btnDivision.Text = "/";
-            btnDivision.UseVisualStyleBackColor = true;
+            btnDivision.UseVisualStyleBackColor = false;
             btnDivision.Click += btnDivision_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Silver;
             ClientSize = new Size(304, 450);
             Controls.Add(btnDivision);
             Controls.Add(btnMulti);
