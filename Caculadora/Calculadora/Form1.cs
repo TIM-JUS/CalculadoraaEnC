@@ -84,8 +84,8 @@ namespace Calculadora
             {
                 case 1: resultado = valor1 + valor2; break;
                 case 2: resultado = valor1 - valor2; break;
-                case 3: resultado = valor1 * valor2; break;
-                
+
+
 
             }
             tbDisplay.Text = resultado.ToString();
@@ -112,13 +112,12 @@ namespace Calculadora
             valor1 = Convert.ToDouble(tbDisplay.Text);
             tbDisplay.Text = "";
 
+
         }
 
         private void btnMulti_Click(object sender, EventArgs e)
         {
-            operacion = 3;
-            valor1 = Convert.ToDouble(tbDisplay.Text);
-            tbDisplay.Text = "";
+            
 
         }
 
